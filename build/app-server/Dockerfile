@@ -1,4 +1,4 @@
-FROM node:6.9.4
+FROM node:latest
 ENV NODE_ENV=staging
 RUN mkdir -p /src
 ADD ./node-api  /src/node-api
